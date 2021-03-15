@@ -1,0 +1,5 @@
+/mnt/f/C++/WSL/CalcMethods/Homework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/f/C++/WSL/CalcMethods/Homework/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/f/C++/WSL/CalcMethods/Homework/cmake-build-debug/CMakeFiles/p2-3.dir
+/mnt/f/C++/WSL/CalcMethods/Homework/cmake-build-debug/CMakeFiles/p2-1.dir
+/mnt/f/C++/WSL/CalcMethods/Homework/cmake-build-debug/CMakeFiles/p2-2.dir

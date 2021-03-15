@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/p2-1.dir/2-1.cpp.o  -o p2-1 
