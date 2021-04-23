@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named p2-2
+
+# Build rule for target.
+p2-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 p2-2
+.PHONY : p2-2
+
+# fast build rule for target.
+p2-2/fast:
+	$(MAKE) -f CMakeFiles/p2-2.dir/build.make CMakeFiles/p2-2.dir/build
+.PHONY : p2-2/fast
+
+#=============================================================================
 # Target rules for targets named p2-3
 
 # Build rule for target.
@@ -135,19 +148,6 @@ p2-1: cmake_check_build_system
 p2-1/fast:
 	$(MAKE) -f CMakeFiles/p2-1.dir/build.make CMakeFiles/p2-1.dir/build
 .PHONY : p2-1/fast
-
-#=============================================================================
-# Target rules for targets named p2-2
-
-# Build rule for target.
-p2-2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 p2-2
-.PHONY : p2-2
-
-# fast build rule for target.
-p2-2/fast:
-	$(MAKE) -f CMakeFiles/p2-2.dir/build.make CMakeFiles/p2-2.dir/build
-.PHONY : p2-2/fast
 
 2-1.o: 2-1.cpp.o
 
@@ -238,9 +238,9 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... p2-2"
 	@echo "... p2-3"
 	@echo "... p2-1"
-	@echo "... p2-2"
 	@echo "... 2-1.o"
 	@echo "... 2-1.i"
 	@echo "... 2-1.s"
